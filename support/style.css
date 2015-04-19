@@ -1,0 +1,83 @@
+/*
+ * Frank Petrilli | frank@petril.li | frank.petril.li
+ * Language: CSS
+ * Layout for the Torque web client.
+ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	color: #444444;
+
+}
+
+h4 {
+	font-weight: 400;
+}
+
+p {
+	font-weight: 300;
+}
+
+#googleMap {
+	width: 65%;
+	height: 600px;
+	float: left;
+}
+
+#data {
+	margin: 10px;
+	float: left;
+}
+
+table {
+	border: 1px solid #ccc;
+	width: 25%;
+	margin:0;
+	padding:0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	float: left;
+}
+
+table tr {
+	border: 1px solid #ddd;
+	padding: 5px;
+	font-weight: 300;
+	color: #333333;
+	background-color: #FCFCFC;
+	opacity: 0.9;
+}
+
+table, th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	text-transform: uppercase;
+	background-color: #F5F5F5;
+	/*letter-spacing: 1px;*/
+}
+
+.marker-labels {
+	color: white;
+	background-color: red;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 10px;
+	text-align: center;
+	width: 10px;     
+	white-space: nowrap;
+}
+
+#options {
+	clear: both;
+	margin-left: 10px;
+	padding-top: 10px;
+
+}

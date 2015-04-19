@@ -1,0 +1,14 @@
+<?php
+	// Config details. Change these before attempting to use this!
+	define ( 'API_DB_HOST', '' );
+	define ( 'API_DB_USER', '' );
+	define ( 'API_DB_PASSWORD', '' );
+	define ( 'API_DB_NAME', '' );
+
+	// Make a connection from this file for convenience. Don't forget to close it.
+	$conn = new mysqli(API_DB_HOST, API_DB_USER, API_DB_PASSWORD, API_DB_NAME);
+	if ($conn->connect_error)  {
+		$conn->close();
+		die("Failed to connect to the DB.");
+	}
+?>
