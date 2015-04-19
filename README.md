@@ -1,4 +1,4 @@
-TorqueClient
+TorqueServer + TorqueClient in Javascript
 ============
 
 What is this?
@@ -24,6 +24,7 @@ You'll need to do the following:
 
 * Place these contents in a directory.
 * Move the wordpress\_auth.php one level up, or rewrite the php to get it elsewhere.
-* Set the contents of db.php to your actual DBMS connection details.
+* Set the contents of db.php.example to your actual DBMS connection details.
+* Rename db.php.example -> db.php
 * Get the DB dump into a database on your DBMS.
 * Set the Torque application to send data.
